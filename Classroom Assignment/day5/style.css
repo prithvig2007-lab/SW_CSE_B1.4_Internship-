@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg: #f4f4f4;
+    --card: #ffffff;
+    --text: #222222;
+    --muted: #555555;
+    --primary: #4f46e5;
+    --accent: #16a34a;
+    --font: Arial, sans-serif;
+}
+body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+header {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+section {
+    background: var(--card);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+#about h2,
+#skills h2,
+#projects h2,
+#contact h2 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+#about p,
+#about ol,
+#skills ul,
+#projects p,
+#contact p {
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+#projects article {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 4px solid var(--accent);
+}
+#projects article h3 {
+    color: var(--accent);
+}
+#contact a {
+    color: var(--primary);
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    color: var(--muted);
+}
