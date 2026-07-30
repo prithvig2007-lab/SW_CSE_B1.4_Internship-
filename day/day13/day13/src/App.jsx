@@ -1,6 +1,7 @@
 import Button from "./components/FucntionalComponent";
 import { LeftArrow, RightArrow } from "./components/FucntionalComponentTwo";
 import ProfileList from "./components/Props";
+import InfoBox from "./components/Props2";
 const name = "Prithvi";
 const isLoggedIn = false;
 
@@ -29,6 +30,7 @@ function App() {
     <LeftArrow />
     <RightArrow />
     <ProfileList />
+    <InfoBox /> 
     </>
     
   )
