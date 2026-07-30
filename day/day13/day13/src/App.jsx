@@ -1,5 +1,6 @@
 import Button from "./components/FucntionalComponent";
 import { LeftArrow, RightArrow } from "./components/FucntionalComponentTwo";
+import ProfileList from "./components/Props";
 const name = "Prithvi";
 const isLoggedIn = false;
 
@@ -27,6 +28,7 @@ function App() {
     <Button />
     <LeftArrow />
     <RightArrow />
+    <ProfileList />
     </>
     
   )
