@@ -4,6 +4,7 @@ import ProfileList from "./components/Props";
 import InfoBox from "./components/Props2";
 import './App.css';
 import Counter from "./components/State";
+import ToggleText from "./components/StateTwo";
 
 const name = "Prithvi";
 const isLoggedIn = false;
@@ -35,6 +36,7 @@ function App() {
     <ProfileList />
     <InfoBox /> 
     <counter />
+    <ToggleText />
     </>
     
   )
